@@ -1,0 +1,70 @@
+.bwf ul
+{
+	margin: 10px 0px;
+	
+}
+.bwf ul li
+{
+	border:none !important;
+	display:inline-block;
+  padding:0px !important;
+}
+.bwf ul li img
+{
+	border-radius:50%;
+	width:25px;
+	box-shadow: 1px 1px 1px #555;
+}
+#bpwf-more-people 
+{
+	padding-bottom:8px !important;
+	font-size:14px;
+}
+/*Spinning*/
+.spinning {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #444;
+  width: 50px;
+  height: 50px;
+  margin:10px auto;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* BWF Modal*/
+.bwf-modal ul
+{
+	margin-left: 0px;
+}
+.bwf-modal ul li
+{
+	list-style: none;
+	border-bottom:1px solid #ddd;
+	display: block;
+	padding: 5px 0px;
+}
+.bwf-modal ul li a img
+{
+  float: left;
+	margin-right:8px;
+	border-radius:50%;
+	width:30px;
+}
+.bwf-modal ul li a span
+{
+	display: block;
+	padding:5px;
+	font-size:13px;
+}
